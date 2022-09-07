@@ -5,35 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   <link rel="stylesheet" href="prueba2/style.css">
+   <link rel="stylesheet" href="prueba2\style.css">
     <title>Prueba 2</title>
 </head>
 <body>
-    <div class="container-xxl fondo" style="background-color:rgb(241, 238, 238)  ;"> <!--barra superior, banner, foto de perfil, nombre, acerca de-->
+    <div class="container-fluid fondo"> <!--barra superior, banner, foto de perfil, nombre, acerca de-->
         <div class="row" style="">
             <div class="col-2">
-                <img src="img/logo.png" alt="logo" style="height: 60px; margin-top: 15px;">
+                <img src="img/logo.png" alt="logo" id="logo">
             </div>
             <div class="col-8">
                 <!--h1 class="blog-header-logo text-dark text-center titulo" style="margin-top: 20px;">Mi portfolio</h1 -->
             </div>
-            <div class="col-1" style="margin-top: 30px;">
-                <a href="https://www.linkedin.com/in/mercedes-godoyrojas/" > Linkedin </a>
+            <div class="col-1" class="linkedin">
+                <a href="https://www.linkedin.com/in/mercedes-godoyrojas/" class="linkedin"> Linkedin </a>
             </div>
             <div class="col-1">
-                <button type="button" class="btn btn-sm btn-outline-secondary" style="margin-top: 25px;"> Editar </button>
+                <button type="button" class="btn btn-sm btn-outline-secondary editar"> Editar </button>
             </div>
         </div>
-        <!--img src="img/banner.webp" alt="banner" class="col-12" id="banner" style="height: 250px;"-->
-        <div class="row p-4 p-md-5 mb-4 text-bg-dark" style="background-color: rgb(49, 47, 47); margin-top: 20px; height: 200px; border-radius: 20px;">
-            
-                <!--h1 style="color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"> Si eres capaz de creerlo, eres capaz de crearlo</h1 -->
-                <!--p class="text-white" style="font-style: cursive">Una frase motivacional, que me represente</p -->
+        <div class="row p-4 p-md-5 mb-4 text-bg-dark banner">
                 <div class="col-3">
-                    <img src="img/foto.jpg" alt="foto-perfil" class="shadow" style="height: 120px; border-radius: 60px; margin-left: 30px;">
+                    <img src="img/foto.jpg" alt="foto-perfil" class="shadow foto_perfil">
                 </div>
                 <div class="col-9">
-                    <h2 style="color: rgb(49, 47, 47) ; margin-top: 20px;" class="p-3 text-white"> María Mercedes Godoy Rojas</h2>
+                    <h2 class="p-3 text-white mi_nombre text-center"> María Mercedes Godoy Rojas</h2>
                 </div>
             
         </div>
@@ -42,7 +38,7 @@
         </div>
 
     </div>
-    <div class="container-xxl" style="background-color:rgb(241, 238, 238);"> <!--experiencia laboral-->
+    <div class="container-fluid fondo"> <!--experiencia laboral-->
         <div class="row">
             <div class="col-12" style="height: 50px;"></div>
             <h3 style="margin-bottom: 15px;">Experiencia laboral</h3>
@@ -66,7 +62,7 @@
             </div>
         </div>
     </div>
-    <div class="container-xxl" style="background-color:rgb(241, 238, 238);"> <!--estudios-->
+    <div class="container-fluid fondo"> <!--estudios-->
         <div class="row">
             <div class="col-12" style="height: 50px;"></div>
             <h3 style="margin-bottom: 15px;">Formación</h3>
@@ -89,6 +85,8 @@
             </div>
         </div>
     </div>
-    <div class="container-xxl"></div>
+    <div class="container-fluid fondo"> <!--habilidades duras y blandas-->
+
+    </div>
 </body>
 </html>
