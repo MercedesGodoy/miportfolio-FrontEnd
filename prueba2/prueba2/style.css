@@ -1,9 +1,9 @@
-.fondo {
+/*.fondo {
     background-color:rgb(241, 238, 238);
-}
+}*/
 
 #logo {
-    height: 60px; margin-top: 15px;
+    height: 40px; margin-top: 7px;
 }
 
 .linkedin {
@@ -23,13 +23,16 @@
 }
 
 .foto_perfil{
-    height: 120px; 
-    border-radius: 60px; 
-    margin-left: 30px;
+    height: 250px; 
+    border-radius: 50%; 
+    margin-left: 70%;
 }
 
 .mi_nombre{
     color: rgb(49, 47, 47) ; 
     margin-top: 35px;
-    height: 500px;
+}
+
+.barra_nav{
+    background-color: #D8C5BC;
 }
